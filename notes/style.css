@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.course-card .btn {
+    width: auto;
+    align-self: start;
+}
+
+#courses {
+    flex: 1;
+}
+
+.two-columns {
+    column-count: 2;
+    column-gap: 20px;
+    color: rgb(53, 117, 236);
+}
+
+.two-columns a:hover {
+    text-decoration: underline;
+}
