@@ -1,0 +1,19 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#section_container {
+    flex: 1;
+}
+
+.inner_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
