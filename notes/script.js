@@ -20,7 +20,7 @@ const lecture_counts = {
     "MATH366": 28,
     "STAT333": 15,
     "MATH287": 18,
-    "CSCI223": 29
+    "CSCI223": 31
 };
 
 document.addEventListener('DOMContentLoaded', function () {
