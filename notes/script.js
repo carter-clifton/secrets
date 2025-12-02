@@ -17,10 +17,10 @@ const extras = {
 
 const lecture_counts = {
     "MATH372": 27,
-    "MATH366": 28,
+    "MATH366": 31,
     "STAT333": 15,
     "MATH287": 18,
-    "CSCI223": 31
+    "CSCI223": 32
 };
 
 document.addEventListener('DOMContentLoaded', function () {
