@@ -9,10 +9,13 @@ const course_titles = {
     "STAT333" : "Introductory Probability Theory",
     "MATH287" : "Natural Resource Modelling",
     "CSCI223" : "Introduction to Data Science",
+    "MATH466" : "Real Analysis II",
 };
 
 const extras = {
-    "MATH372": ["Full Course.pdf", "Theorems.pdf"]
+    "MATH372": ["Full Course.pdf", "Theorems.pdf"],
+    "MATH366": ["Full Course.pdf"],
+    "MATH466": ["Current Course.pdf", "t1info.pdf"]
 };
 
 const lecture_counts = {
@@ -20,7 +23,8 @@ const lecture_counts = {
     "MATH366": 31,
     "STAT333": 15,
     "MATH287": 18,
-    "CSCI223": 32
+    "CSCI223": 32,
+    "MATH466": 12
 };
 
 document.addEventListener('DOMContentLoaded', function () {
