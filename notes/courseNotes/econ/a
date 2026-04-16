@@ -1,1 +1,182 @@
-a
+Economics 301 Midterm Exam
+
+Allocation: Specifies an amount of each good that each person gets
+* feasible if doesn’t give out more goods than are in the economy
+
+Edgeworth Box: Dimensions of the box show total amounts of each good
+
+Pareto Efficient: An allocation is pareto efficient if there is no way to make one person better off without hurting someone else
+
+Efficient Allocations: MRS_A = MRS_B
+* All gains from trades are exhausted - cant make one better off without hurting the other
+
+Contract Curve: Connects Pareto Efficient allocations
+* After trading, all final allocations will be on this curve
+
+General Equilibrium
+* Only relative prices matter (P_x / P_y) since there is no money
+* In equilibrium, there is no excess demand or supply for either good
+* Solving:
+    * Only relative prices matter — set P_y = 1
+    * Calculate I_A and I_B (value of endowments)
+    * Equilibrium, so set total demand = total supply for good x, solve for P_x
+    * FInd equilibrium allocation using demand functions
+
+Production
+* Two goods (x, y) and two factors of production (L, K)
+* L, K are in fixed supply, how much should we use to produce x and y?
+* Producer either good has a marginal cost, ratio is MRT = MC_x / MC_y
+* MRT is marginal rate of transformation, the rate we can substitute between output of x and y
+* MRS_A = MRS_B = MRT is efficiency
+
+First Welfare Theorem: Competitive equilibrium results in a Pareto Efficient allocation
+* Each consumer is maximizing utility
+    * MRS_A = P_x / P_y = MRS_B
+* Production of both goods is competitive
+    * MC_x = P_x, MC_y = P_y → P_x / P_y = MC_x / MC_y = MRT
+* MRS_A = MRS_B = MRT
+
+Second Welfare Theorem: Starting with any Pareto Efficient allocation, there is a distribution of ownership of inputs such that this allocation is also a competitive equilibrium
+
+Fairness
+* Equity → Redistribute ownership of inputs
+* Efficiency → Use competitive markets
+* How does society collectively determine what is fair?
+        * How do we aggregate individual preferences into “social preferences”?
+
+Majority Rule Voting
+* There may not be a social ordering, and voting between pairs of alternatives leads to issues
+* Social preferences don’t satisfy transitivity (Condorcet Paradox)
+
+Aggregating Preferences Criteria
+* Social preferences should be complete and transitive
+* Unaminity: If everyone prefers x > y, then socially x > y
+* Society’s ranking of x and y should depend only on individual rankings of x and y (independence of irrelevant alternatives)
+
+Arrow’s Impossibility Theorem
+* The only social mechanism that satisfies (1), (2), and (3) is dictatorship
+* Sometimes the critera includes (4) non-dictatorship, in which case this theorem states no mechanism exists
+
+Social Welfare Function
+* A function w = f(u_1, u_2, …, u_n), where each u_i is a utility function, and w is increasing in each of the u_i’s
+1. Utilitarian Welfare Function
+    * “Greatest happiness for the greatest number of people”
+    * w = u_1 + u_2 + … + u_n
+2. Rawlsian Welfare Function
+    * w = min{u_1, u_2, …, u_n}
+    * Welfare only increases when we increase the lowest utility
+
+Allocating Goods to Maximize Welfare
+* Consider two people with utility functions and some number of a single good x
+* Rewrite each utility function to solve for x
+* Set the sum of these equal to the amount of good x
+* Replace with functions of U_A and U_B to get an equation for the utility possibility frontier
+* Slope of UPF = d U_A / d U_B
+
+Utilitarian Case
+* “Tangency” — Set slope of UPF = slope of welfare line (1)
+* Substitute into UPF → Solve for U_A and U_B
+* Substitute into utility functions to find x_A and x_B
+
+Rawlsian Case
+* Corner of Welfare line — U_A = U_B
+* Substitute into UPF → Solve for U_A and U_B
+* Substitute into utility functions to find x_A and x_B
+
+Market Power: Ability to unilaterally influence the market price
+
+Monopoly: Market with a single seller facing many buyers
+
+Features of a monopoly:
+* No close substitutes
+* Barriers to entry
+
+Barriers to Entry
+* Natural Monopoly
+    * Average cost falls continuously over a large range of output (economies of scale)
+    * Large firm can undercut entrants due to lower cost per unit
+* Ownership Barriers
+    * Firm owns a significant share of an input resource
+* Legal Barries
+    * You cannot legally enter
+    * Patents, Trademarks, Copyrights
+* Network Barries
+    * The value of the good increaases as the userbase increases
+    * Social media, Online games
+* Strategic Barriers
+    * A firm creates an aggresive reputation that it will fight new entrants
+
+Monopoly
+* Profit Maximization
+    * MR = MC
+    * Note: In perfect competition, firms have no market power → output has no impact on price
+        * MR = P = MC in a competitive market
+    * MR \neq P in monopoly since output decisions affect market price
+* Monopolist is still constrained by demand → increasing output means lowering price
+    * MR is below the demand curve
+    * P > MR = MC → P > MC
+
+Finding Monopolist Output and Price
+* Find Total Revenue → Find Marginal Revenue
+* Find Marginal Cost
+* Set MR = MC → Substitute Q into Demand function
+
+Monopoly
+* Q_m < Q^\star (monopolies produce less output)
+* P_m > P^\star (monopolies charge a higher price)
+* Ineffiency: P > MC → Deadweight loss
+
+Inverse Elasticity Pricing Rule
+* ( P - MC ) / P = 1 / | \varepsilon |
+* LHS is markup, | \varepsilon| is elasticity
+
+Price Discrimination
+* A monopolist price discriminates if it charges more than one price
+* A firm can price discriminate if
+    * It has market power
+    * It can prevent arbitrage (consumers selling to other consumers)
+
+First Degree Price Discrimination (Perfect)
+* Monopolist sells each unit at each consumer’s maximum willingness to pay
+* MR = Demand Curve
+* Consumer Surplus = 0, Monopolist captures all available surplus
+* Monopolist produces efficient quantity → No deadweight loss
+
+Second Degree Price Discrimination
+* Two Part Pricing / Subscription & User Charges
+* Start by finding the monopoly solution
+* Now charge a fee equal to the consumer surplus
+* Then, producer surplus is maximized and consumer surplus is 0
+* Monopolist can do even better → Set price = MC → CS rises → Increase membership fee
+
+Third Degree Price Discrimination
+* Market Segmentation
+* Charge a high price to consumers with low elasticity of demand
+* Break market into “segments” (low |e| or high |e|) based on observable characteristics
+* Business travellers are less price elastic than vacation travellers
+* Coupons → only about 30% of customers use coupons
+* Senior / Student discounts
+
+Oligopy: Market structure with few firms → Firms must be strategic
+
+Cournot Model
+* Firms strategically choose quantities to produce (identical goods)
+* Market price depends on total quantity
+* Cournot Equilibrium → Each firm’s output is a best response to the other firms output
+    * Nash Equilibrium
+
+Finding Cournot Equilibrium
+* Find the best responses for both firms in general
+    * Write demand in general
+    * Find Firm 1’s total revenue → get marginal revenue
+    * Set MR = MC
+    * This is the best response function
+* Solve these together
+    * Substitute one best response function into the other
+* Find market price using both Cournot Equilibrium quantities
+
+Cartel
+* Firms stop competing and work together to maximize profit
+* They would choose Q to be the monopoly quantity
+* Market quantity reduces, Market price increases, firm profits increase
+* The cartel typically does not survive since one firm could best respond to the monopoly quantity and make even more money
